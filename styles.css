@@ -1,0 +1,83 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+}
+.h1{
+	font-size: 66px;
+	font-weight: 600px; 
+	line-height: 80px;
+}
+.p{
+	font-size: 18px;
+	color: #9999999;
+	line-height:1.8;
+	margin-bottom: 0;
+}
+.topmargin-sc{margin-top: 15px;}
+.topmargin-cs{ margin-top: 60px;}
+.topmargin-lp{ margin-top: 60px;}
+
+
+.navbar{
+	background-color: #ffffff; 
+	box-shadow: 2px, 4px, 0 rgba(5, 5, 5);
+	padding: 20px, 6;
+
+}
+.nav-link{color: #ffffff;}
+.nav-linkoverflow{color: #9333FF;}
+.img-zoo{
+	 min-width: 80px;
+	 max-width: 70px;
+
+}
+}
+.nav-toggler{
+	font-size: 550px;}
+.nav-toggler:focus{ outline:none; }
+.#herf{
+	background-image: url("image/zoo1.jpg");
+	background-size: cover;
+	padding top: 90px;
+	align-self: 600px;
+
+}
+.#herf p {
+	color: #00000;
+
+}
+.content-center{
+	max-width: 80px;
+	margin: 0 auto 60 auto ;
+	text-align: center;
+
+
+}
+.jumbotron{
+	background-size: #F08080;
+	background-image: #F08080;
+}
+.card-text h3{
+	font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	h1{font-size: 445px; line-height: normal;}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 778px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
